@@ -2,7 +2,7 @@ package lb;
 
 import java.util.*;
 
-class DirectedGraph<T> implements Iterable<T> {
+public class DirectedGraph<T> implements Iterable<T> {
     private Map<T, List<T>> adjacencyList;
 
     public DirectedGraph() {
